@@ -1,20 +1,20 @@
 {
-  "tajmahaltickets.in": {
+  "tajmahalticket.in": {
     "logo": "🏙",
     "headerText": "Taj Mahal Tickets",
     "color": "#a83232"
   },
-  "delhitickets.in": {
+  "delhitickets.com": {
     "logo": "🕌",
     "headerText": "Taj Mahal Tickets",
     "color": "#a83232"
   },
-  "jaipurtickets.in": {
+  "jaipurtickets.com": {
     "logo": "🏰",
     "headerText": "Lal Qila Tickets",
     "color": "#9b1b1b"
   },
-  "agratickets.in": {
+  "agratickets.com": {
     "logo": "🏙",
     "headerText": "Agra Tickets",
     "color": "#007a5a"
