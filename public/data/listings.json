@@ -1,6 +1,6 @@
 [
   {
-    "domain": "tajmahaltickets.in",
+    "domain": "tajmahalticket.in",
     "id": "taj-entry",
     "title": "Taj Mahal Entry Ticket",
     "description": "Skip-the-line entry pass for Taj Mahal.",
@@ -8,7 +8,7 @@
     "images": ["/images/taj.jpg"]
   },
   {
-    "domain": "jaipurtickets.in",
+    "domain": "jaipurtickets.com",
     "id": "jaipur-entry",
     "title": "Jaipur Entry Ticket",
     "description": "Skip-the-line entry pass for Jaipur.",
@@ -16,7 +16,7 @@
     "images": ["/images/jaipur.jpg"]
   },
   {
-    "domain": "agratickets.in",
+    "domain": "agratickets.com",
     "id": "agra-entry",
     "title": "Agra Entry Ticket",
     "description": "Skip-the-line entry pass for Agra.",
@@ -24,7 +24,7 @@
     "images": ["/images/agra.jpg"]
   },
   {
-    "domain": "delhitickets.in",
+    "domain": "delhitickets.com",
     "id": "delhi-entry",
     "title": "Delhi Entry Ticket",
     "description": "Skip-the-line entry pass for Delhi.",
