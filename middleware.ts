@@ -44,14 +44,10 @@ export function middleware(request: NextRequest) {
     host = host.slice(4);
   }
 
+  // Only allow whitelisted domains
   if (allowedDomains.includes(host)) {
-    const url = request.nextUrl.clone();
-
-    // Optionally prepend the domain to the path
-    // Uncomment the next line if you want URLs like /delhitickets.com/listings
-    // url.pathname = `/${host}${url.pathname}`;
-
-    return NextResponse.rewrite(url); // Or use NextResponse.next() if you don't want rewrite
+    // Use NextResponse.next() to let the request continue
+    return NextResponse.next();
   }
 
   // fallback for unknown domains
@@ -61,4 +57,5 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: ['/', '/listings/:path*', '/listings/:listingId*'],
 };
+
 
