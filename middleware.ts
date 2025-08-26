@@ -39,10 +39,7 @@ const allowedDomains = [
 export function middleware(request: NextRequest) {
   let host = request.headers.get('host')?.toLowerCase() || '';
 
-  // Remove 'www.' prefix if exists
-  if (host.startsWith('www.')) {
-    host = host.slice(4);
-  }
+
 
   // Only allow whitelisted domains
   if (allowedDomains.includes(host)) {
