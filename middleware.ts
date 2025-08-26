@@ -2,10 +2,10 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
 const allowedDomains = [
-  'tajmahaltickets.in',
-  'jaipurtickets.in',
-  'agratickets.in',
-  'delhitickets.in',
+  'tajmahalticket.in',
+  'jaipurtickets.com',
+  'agratickets.com',
+  'delhitickets.com',
 ];
 
 export function middleware(request: NextRequest) {
