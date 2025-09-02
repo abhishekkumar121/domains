@@ -5,13 +5,20 @@
     "color": "#a83232"
   },
   "delhitickets.com": {
-    "logo": "🕌",
-    "headerText": "Taj Mahal Tickets",
-    "color": "#a83232"
+    "logo": "/images/delhi/logodelhitickets.jpg",
+    "headerText": "Delhi Tickets",
+      "color": "#4a90e2",
+  "banners": [
+    "/images/delhi/delhi1.jpg",
+    "/images/delhi/delhi2.jpg",
+    "/images/delhi/delhi3.jpg",
+    "/images/delhi/delhi4.jpg",
+    "/images/delhi/delhi5.jpg"
+  ]
   },
   "jaipurtickets.com": {
     "logo": "🏰",
-    "headerText": "Lal Qila Tickets",
+    "headerText": "Jaipur Tickets",
     "color": "#9b1b1b"
   },
   "agratickets.com": {
